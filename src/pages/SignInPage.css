@@ -1,0 +1,106 @@
+.sign-in-to {
+  position: absolute;
+  top: 248px;
+  left: calc(50% - 199px);
+  line-height: 120%;
+}
+.input5,
+.label1 {
+  align-self: stretch;
+  position: relative;
+}
+.label1 {
+  line-height: 150%;
+  font-weight: 500;
+}
+.input5 {
+  background-color: transparent;
+  font-family: var(--component-heading-large-md);
+  font-size: var(--text-md-size);
+  color: var(--gray-700);
+}
+.formcontrol {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button17,
+.form {
+  position: absolute;
+}
+.form {
+  top: 325px;
+  left: calc(50% - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--text-md-size);
+}
+.button17 {
+  top: 536px;
+  left: calc(50% - 199px);
+  cursor: pointer;
+}
+.sm-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: var(--base);
+  border: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.formcontrol1 {
+  position: absolute;
+  top: 421px;
+  left: calc(50% - 199px);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--text-md-size);
+}
+.logo-1-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 241px;
+  height: 136px;
+  object-fit: cover;
+}
+.lg-breakpoint {
+  position: absolute;
+  top: 62px;
+  left: 224px;
+  background-color: var(--gray-100);
+  box-shadow: var(--base);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 992px;
+  height: 900px;
+  overflow: hidden;
+}
+.sign-in-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--heading-large-lg-size);
+  color: var(--gray-700);
+  font-family: var(--component-heading-large-md);
+}

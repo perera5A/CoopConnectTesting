@@ -1,0 +1,207 @@
+.xl1 {
+  top: 206px;
+  left: calc(50% - 215px);
+  font-size: 48px;
+  line-height: 100%;
+}
+.button4,
+.xl1,
+.xl2 {
+  position: absolute;
+}
+.xl2 {
+  top: 273px;
+  left: calc(50% - 278px);
+  font-size: var(--font-size-5xl);
+  line-height: 120%;
+  white-space: pre-wrap;
+  text-align: center;
+  display: inline-block;
+  width: 556px;
+}
+.button4 {
+  top: 21px;
+  right: 33px;
+  cursor: pointer;
+}
+.md,
+.md1 {
+  line-height: 120%;
+}
+.md {
+  position: absolute;
+  top: 31px;
+  right: 127px;
+  font-size: var(--component-heading-large-md-size);
+}
+.md1 {
+  top: 359px;
+  left: calc(50% - 138px);
+  font-size: var(--font-size-5xl);
+}
+.button5,
+.md1,
+.md2 {
+  position: absolute;
+}
+.button5 {
+  top: 407px;
+  left: calc(50% - 120px);
+  cursor: pointer;
+}
+.md2 {
+  top: 498px;
+  left: calc(50% - 125px);
+  font-size: var(--component-heading-large-md-size);
+  line-height: 120%;
+}
+.sample-job-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.info-info-info {
+  margin: 0;
+}
+.info {
+  position: absolute;
+  top: 114.1px;
+  left: calc(50% - 142.5px);
+  line-height: 150%;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 294px;
+  height: 74px;
+}
+.location,
+.picture-icon {
+  position: absolute;
+  top: 42.1px;
+}
+.location {
+  left: 108px;
+  font-size: var(--font-size-xs);
+  line-height: 120%;
+  display: inline-block;
+  width: 71px;
+  height: 14.4px;
+}
+.picture-icon {
+  left: 25px;
+  border-radius: var(--br-7xs);
+  width: 64px;
+  height: 65.8px;
+}
+.md3 {
+  position: absolute;
+  top: 6.2px;
+  left: calc(50% - 74.5px);
+  font-size: var(--text-lg-lineheight-7-font-medium-size);
+  line-height: 120%;
+  display: inline-block;
+  width: 157px;
+  height: 22.6px;
+}
+.button6,
+.icon1 {
+  position: absolute;
+  top: 63.7px;
+  left: 106px;
+}
+.icon1 {
+  height: 9.2%;
+  width: 6.08%;
+  top: 31.21%;
+  right: 59.57%;
+  bottom: 59.6%;
+  left: 34.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sample-job,
+.sample-job1 {
+  position: absolute;
+  top: 538px;
+  left: calc(50% - 163px);
+  width: 329px;
+  height: 224px;
+}
+.sample-job1 {
+  left: calc(50% + 247px);
+}
+.contacty-us,
+.what-is-co-op {
+  position: absolute;
+  bottom: 60px;
+}
+.what-is-co-op {
+  left: 62px;
+}
+.contacty-us {
+  left: calc(50% - 118px);
+}
+.button8,
+.icon3 {
+  position: absolute;
+  right: 63px;
+  bottom: 60px;
+}
+.icon3 {
+  height: 9.2%;
+  width: 6.09%;
+  top: 31.21%;
+  right: 59.55%;
+  bottom: 59.6%;
+  left: 34.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sample-job2 {
+  position: absolute;
+  top: 538px;
+  left: calc(50% - 573px);
+  width: 335px;
+  height: 224px;
+}
+.logo-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 241px;
+  height: 136px;
+  object-fit: cover;
+}
+.xl {
+  position: absolute;
+  top: calc(50% - 464px);
+  left: calc(50% - 640px);
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: var(--base);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 1280px;
+  height: 929px;
+  overflow: hidden;
+}
+.landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-md-size);
+  color: var(--black);
+  font-family: var(--component-heading-large-md);
+}

@@ -1,0 +1,112 @@
+.sign-up-to {
+  position: absolute;
+  top: 248px;
+  left: calc(50% - 204px);
+  font-size: var(--heading-large-lg-size);
+  line-height: 120%;
+  text-align: center;
+}
+.input7,
+.label3 {
+  align-self: stretch;
+  position: relative;
+}
+.label3 {
+  line-height: 150%;
+  font-weight: 500;
+}
+.input7 {
+  background-color: transparent;
+  font-family: var(--component-heading-large-md);
+  font-size: var(--text-md-size);
+  color: var(--gray-700);
+}
+.form1,
+.formcontrol2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formcontrol2 {
+  width: 400px;
+  gap: var(--gap-xs);
+}
+.form1 {
+  top: 430px;
+}
+.button18,
+.form1,
+.formcontrol3 {
+  position: absolute;
+  left: calc(50% - 200px);
+}
+.formcontrol3 {
+  top: 329px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.button18 {
+  top: 649px;
+  cursor: pointer;
+}
+.sm-container1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: var(--base);
+  border: 1px solid var(--gray-200);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.formcontrol4 {
+  position: absolute;
+  top: 526px;
+  left: calc(50% - 199px);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.logo-1-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 241px;
+  height: 136px;
+  object-fit: cover;
+}
+.lg-breakpoint1 {
+  position: absolute;
+  top: 62px;
+  left: 224px;
+  background-color: var(--gray-100);
+  box-shadow: var(--base);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 992px;
+  height: 900px;
+  overflow: hidden;
+}
+.sign-up-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-md-size);
+  color: var(--gray-700);
+  font-family: var(--component-heading-large-md);
+}
