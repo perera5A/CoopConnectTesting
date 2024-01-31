@@ -46,6 +46,7 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                <img className="sm:fixed sm:top-2 sm:left-2" src={logo} alt="Logo"/>
                
                 <div className = "Container_row">
+
                     <div className = "Title">
                         <h1>
                             CO-OPCONNECT
@@ -88,19 +89,48 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                     </Link>
 
                     </div>
+                            
+                    <div class="job-listing">
+                    <div class="job-card">
+                        <h3>Website Designer</h3>
+                        <p>Toronto, ON</p>
+                        <button>APPLY NOW</button>
+                        <p>info info info info info info info info info info info info info info info</p>
+                    </div>
+                    <div class="job-card">
+                        <h3>Website Designer</h3>
+                        <p>Toronto, ON</p>
+                        <button>APPLY NOW</button>
+                        <p>info info info info info info info info info info info info info info info</p>
+                    </div>
+                    <div class="job-card">
+                        <h3>Website Designer</h3>
+                        <p>Toronto, ON</p>
+                        <button>APPLY NOW</button>
+                        <p>info info info info info info info info info info info info info info info</p>
+                    </div>
+                    </div>
+                    
 
                   
-                    
+            <div class="Box">
+              <a href="#co-op-info" class="CO-OP">What is CO-OP?</a>
+              <a href="#contact-us" class="Contact">Contact us</a>
+              <a href="#more-info" class="Info">More Info about us</a>
+            </div>
 
                    
 
-                </div>
+            </div>
 
           
-
                
                                    
             </div>
+
+
+            
+
 
         </>
     );
