@@ -5,6 +5,8 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
+import logo from './images/COOPCONNECTLOGO.png';
+
 
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -29,6 +31,21 @@ export default function Register() {
     return (
         <GuestLayout>
             <Head title="Register" />
+
+            {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
+
+
+            <div className="flex flex-col items-center p-6">
+                <Link href="/">
+                    <img src={logo} alt="CO-OP CONNECT Logo" className="mb-8" />
+                </Link>
+                
+                <div className="w-full max-w-md">
+                    <h2 className="font-semibold text-xl text-black mb-4 text-center">Sign up to CO-OP CONNECT</h2>
+
+
+
+
 
             <form onSubmit={submit}>
                 <div>
@@ -99,19 +116,24 @@ export default function Register() {
                     <InputError message={errors.password_confirmation} className="mt-2" />
                 </div>
 
-                <div className="flex items-center justify-end mt-4">
-                    <Link
-                        href={route('login')}
-                        className="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800"
-                    >
-                        Already registered?
-                    </Link>
-
-                    <PrimaryButton className="ms-4" disabled={processing}>
-                        Register
-                    </PrimaryButton>
+                <div className="flex flex-col items-center mt-4">
+                            <PrimaryButton disabled={processing} className="ms-4">
+                                Sign Up
+                            </PrimaryButton>
+                        </div>
+                        
+                        <div className="mt-4 w-full">
+                            <div className="flex justify-between">
+                                <Link href={route('login')} className="underline text-sm text-gray-600 hover:text-gray-900">
+                                    Already registered?
+                                </Link>
+                                {/* Empty div to maintain space between the link and the button */}
+                                <div></div> 
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </GuestLayout>
     );
 }
